@@ -5,11 +5,6 @@ import './Contact.css';
 
 const Contact: React.FC = () => {
   const { contact } = portfolioData;
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
 
   const handleConnectClick = () => {
     window.open('https://www.linkedin.com/in/thanmayi-j-r-a0965224b/', '_blank');
