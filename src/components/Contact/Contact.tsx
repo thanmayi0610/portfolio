@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import portfolioData from '../../data/portfolioData';
 import './Contact.css';
 
