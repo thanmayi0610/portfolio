@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import portfolioData from '../../data/portfolioData';
-import './Profile.css';
+import './profile.css';
 
 const Profile: React.FC = () => {
   const { name, title, socialLinks } = portfolioData;
